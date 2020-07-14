@@ -1,4 +1,4 @@
-# Tensorflow Object Detection Precision
+# Tensorflow Object Detection Precision Walkthrough
 This repo helps to calculate the precision between a predicted boundary box and true boundary box generated through any image annotation tool. It calculates the average precision of each object per image in addition to an overall precision.
 
 TensorFlow Object Detection API is a great and easy tool for object detection needs. However, there is no way to programmatically check accuracy/precision and manually checking test images can take up to hours.
