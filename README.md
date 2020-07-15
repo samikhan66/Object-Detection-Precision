@@ -1,9 +1,9 @@
 # Tensorflow Object Detection Precision Walkthrough
 This repo helps to calculate the precision between a predicted boundary box and true boundary box generated through any image annotation tool. It calculates the average precision of each object per image in addition to an overall precision.
 
-TensorFlow Object Detection API is a great and easy tool for object detection needs. However, there is no way to programmatically check accuracy/precision and manually checking test images can take up to hours.
+TensorFlow Object Detection API is a great and easy tool for object detection needs. However, there is no way to programmatically check accuracy/precision and manually checking test images can anywhere from hours to several days.
 
-This script eliminates the manual intervention of testing and finds the precision of generated boundary boxes.
+This script eliminates the manual intervention of testing and finds the precision of generated boundary boxes just by hitting one button. The only change that needs to be made is a dictionary for your use case.
 An overall 85% precision is usually considered good but your need might vary but I would still manually go through some files because occassionally, the average precision.
 
 The script also creates color coded predicted boundary boxes while generating a csv using a pandas dataframe. This script was used to check the precision on common objects such as bottle, cup, chair, bowl, laptop etc. In my use case, bottle and wine glass can occur more than once so my I use an average of those two overlaps.
