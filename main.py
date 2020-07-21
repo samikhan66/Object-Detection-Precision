@@ -10,7 +10,7 @@ import os
 import find_precision
 from find_precision import (compare_coordinates, write_csv_one_bottle_one_vase, 
 parse_xml, write_csv_two_bottle_one_vase, write_csv_two_bottle_two_vase)
-import test_ml
+import ml
 import csv
 import cv2
 import pandas as pd 
