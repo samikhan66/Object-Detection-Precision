@@ -4,7 +4,7 @@ lxml==4.5.0
 numpy==1.17.4
 opencv-python==4.1.0.25
 pandas==1.0.1
-protobuf==3.11.2
+protobuf==3.18.3
 tensorboard==1.14.0
 tensorflow==1.15.2
 tensorflow-estimator==1.14.0
